@@ -5,4 +5,5 @@
 
 export { userController } from './user.controller';
 export { mailController } from './mail.controller';
+export { socketController } from './socket.controller';
 export { resetTokenController } from './reset_token.controller';

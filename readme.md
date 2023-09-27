@@ -1,135 +1,97 @@
-
-# Country Trivia App
+# Socket Chat API
 
 ## Overview
 
-The Country Trivia App is a simple trivia game API that generates quizzes based on users' IP locations. It provides a fun and interactive way for users to test their knowledge about different countries. Currently hosted live at [Trivia Quiz App](https://bank-app-ef40.onrender.com)
+The Socket Chat API is a WebSocket-based backend for real-time chat applications.  The API allows users to connect to chat rooms, exchange messages, and experience real-time communication. Currently hosted live at [Livechat API](https://socket-chat-wd2a.onrender.com)
 
 ## Getting Started
 
-To use the Country Trivia App API, follow these steps:
+To set up and run the Socket Chat API, follow these steps:
 
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/mjavason/Trivia-Quiz-API.git
+   git clone https://github.com/mjavason/Socket-Chat-API.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd country-trivia-app
+   cd socket-chat-api
    ```
 
-3. Configure environment variables by creating a `.env` file in the root directory. Here's a sample `.env` file:
-
-   ```env
-   ACCESS_TOKEN_SECRET=your_access_token_secret
-   APP_NAME=CountryTriviaApp
-   JWT_SECRET=your_jwt_secret
-   MONGODB_URL=your_mongodb_uri
-   REFRESH_TOKEN_SECRET=your_refresh_token_secret
-   USERNAME=user@example.com
-   SITE_LINK=your_site_link
-   MAIL_ADDRESS=your_mail_address
-   MAIL_PASSWORD=your_mail_password
-   ```
-
-4. Install the required dependencies:
+3. Install the required dependencies:
 
    ```shell
    npm install
    ```
-5. Ensure you have Node.js installed on your computer.
-6. Build the TypeScript code using 
+
+4. Build the TypeScript code:
+
    ```shell
    npm run build
    ```
-7. Start the server locally using one of the following commands:
 
-   - For local development with automatic code reloading (using nodemon):
-     ```bash
-     npm run dev
-     ```
-   - For running the production-ready build:
-     ```bash
-     npm start
-     ```
+5. Start the server:
 
+   ```shell
+   npm start
+   ```
 
-The API will be accessible at `http://localhost:5000` by default. Make sure to replace the environment variables with your actual values.
+The API will be accessible at `http://localhost:5000` by default.
 
-## IP Location-Based Quizzes
+## Features
 
-The Country Trivia App's key feature is its ability to generate quizzes based on the user's IP location:
+- **WebSocket-Based Chat**: The API uses WebSocket for real-time chat communication, allowing users to send and receive messages instantly.
 
-1. **IP Location Detection**: The API automatically detects the user's IP location using a geolocation service.
+- **Chat Rooms**: Users can join different chat rooms based on their preferences or topics of interest.
 
-2. **Country Identification**: It determines the user's country or region based on their IP address.
-
-3. **Quiz Generation**: Using the detected location, the API fetches quiz questions related to that country or region.
-
-4. **Personalized Quiz**: The API assembles a personalized quiz for the user, featuring questions and trivia specific to their location.
+- **Message Broadcasting**: Messages sent by one user are broadcasted to all participants in the same chat room.
 
 ## Security
 
-Please note that this is a demo project and may not implement advanced security measures. If you plan to use it in a production environment, consider enhancing its security features.
+This API provides the foundation for real-time chat but may require additional security measures, such as message encryption, for production-ready chat applications. Consider implementing these measures to enhance security.
 
 ## Sample Usage
 
-### User Registration
+### Joining a Chat Room
 
-To register a new user with the Country Trivia App API, you can make a POST request to the `/api/v1/auth/register` endpoint with the following JSON payload:
+To join a chat room using the Socket Chat API, you can connect to a WebSocket endpoint and specify the chat room name as part of the connection URL:
 
-**Request:**
-
-```http
-POST /api/v1/auth/register
-Content-Type: application/json
-
-{
-  "firstname": "John",
-  "lastname": "Doe",
-  "email": "johndoe@example.com",
-  "password": "secure_password"
-}
+```javascript
+const socket = new WebSocket('ws://localhost:3000/chat?room=your-room-name');
 ```
 
-**Response:**
+### Sending and Receiving Messages
 
-A successful registration will yield a JSON response like this:
+Once connected to a chat room, you can send and receive messages using WebSocket events:
 
-```json
-{
-  "success": true,
-  "status_code": "10000",
-  "message": "Registration successful",
-  "data": {
-    "_id": "5f8a12a3e055b1246890d4ad",
-    "firstname": "John",
-    "lastname": "Doe",
-    "email": "johndoe@example.com",
-    "role": "user",
-    "points": 0,
-    "createdAt": "2023-09-25T11:00:00.000Z",
-    "updatedAt": "2023-09-25T11:00:00.000Z"
-  }
-}
+```javascript
+// Sending a message
+socket.send('Hello, chat room!');
+
+// Receiving a message
+socket.addEventListener('message', (event) => {
+  const message = event.data;
+  console.log('Received message:', message);
+});
 ```
 
-In this example:
+### Leaving a Chat Room
 
-- You provide the user's `firstname`, `lastname`, `email`, and `password` in the request body.
-- The API registers the user and returns a JSON response indicating a successful registration, along with the user's details such as their `_id`, `firstname`, `lastname`, `email`, `role`, and `createdAt` timestamp.
+To leave a chat room, you can close the WebSocket connection:
 
+```javascript
+socket.close();
+```
 
 ## Documentation
 
-For detailed information about using the app's API and endpoints, consult the [Country Trivia App Documentation](https://documenter.getpostman.com/view/29278179/2s9YJZ2Pep).
+For detailed documentation on how to use the Socket Chat API and its WebSocket endpoints, refer to the [Socket Chat API Documentation](https://documenter.getpostman.com/view/29278179/2s9YJZ3PeE).
 
 ## Contributing
 
-Contributions to the Country Trivia App are welcome! If you'd like to contribute:
+Contributions to the Socket Chat API are welcome! If you'd like to contribute:
 
 1. Fork the project on GitHub.
 
@@ -141,8 +103,8 @@ Contributions to the Country Trivia App are welcome! If you'd like to contribute
 
 5. Create a pull request with a clear description of your changes.
 
-Contributions that enhance security, performance, and user experience are particularly valuable.
+Contributions that improve functionality, performance, and user experience are highly appreciated.
 
 ## Acknowledgments
 
-The Country Trivia App project has benefited from the collaboration and support of colleagues, mentors, and friends. Their contributions in coding, design, testing, data management, and advice have been invaluable. Thank you to all who have been a part of this project.
+The Socket Chat API project appreciates the support of the open-source community and contributors. Your contributions in code, testing, and documentation help make this API a valuable tool for real-time communication.

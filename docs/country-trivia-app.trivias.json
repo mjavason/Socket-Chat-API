@@ -1,0 +1,2412 @@
+[{
+  "_id": {
+    "$oid": "6514276d1e5dfb3fedccd5a2"
+  },
+  "text": "What is the capital of the United States?",
+  "options": [
+    "New York",
+    "Los Angeles",
+    "Washington, D.C.",
+    "Chicago"
+  ],
+  "country": "US",
+  "correctAnswer": "Washington, D.C.",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:46.824Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "651428fa1e5dfb3fedccd5a6"
+  },
+  "text": "Which two official languages are spoken in Canada?",
+  "options": [
+    "English and Spanish",
+    "English and French",
+    "English and German",
+    "English and Chinese"
+  ],
+  "country": "CA",
+  "correctAnswer": "English and French",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:54.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ab"
+  },
+  "text": "What is the capital of France?",
+  "options": [
+    "Berlin",
+    "Madrid",
+    "Paris",
+    "Rome"
+  ],
+  "country": "FR",
+  "correctAnswer": "Paris",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:55.208Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ac"
+  },
+  "text": "What is the largest state by area in the United States?",
+  "options": [
+    "California",
+    "Alaska",
+    "Texas",
+    "Florida"
+  ],
+  "country": "US",
+  "correctAnswer": "Alaska",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:55.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ad"
+  },
+  "text": "What is the official language of Japan?",
+  "options": [
+    "Japanese",
+    "Chinese",
+    "Korean",
+    "Thai"
+  ],
+  "country": "JP",
+  "correctAnswer": "Japanese",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:55.775Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ae"
+  },
+  "text": "What is the capital of Germany?",
+  "options": [
+    "Berlin",
+    "Munich",
+    "Hamburg",
+    "Cologne"
+  ],
+  "country": "DE",
+  "correctAnswer": "Berlin",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:56.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5af"
+  },
+  "text": "Which country is known as the Land of the Rising Sun?",
+  "options": [
+    "China",
+    "Korea",
+    "Japan",
+    "Vietnam"
+  ],
+  "country": "JP",
+  "correctAnswer": "Japan",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:56.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b0"
+  },
+  "text": "What is the official language of Spain?",
+  "options": [
+    "Spanish",
+    "Portuguese",
+    "Italian",
+    "French"
+  ],
+  "country": "ES",
+  "correctAnswer": "Spanish",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:56.609Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b1"
+  },
+  "text": "Which country is famous for the Great Barrier Reef?",
+  "options": [
+    "Australia",
+    "New Zealand",
+    "Fiji",
+    "Indonesia"
+  ],
+  "country": "AU",
+  "correctAnswer": "Australia",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:56.897Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b2"
+  },
+  "text": "What is the currency of Brazil?",
+  "options": [
+    "Peso",
+    "Dollar",
+    "Euro",
+    "Real"
+  ],
+  "country": "BR",
+  "correctAnswer": "Real",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:57.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b3"
+  },
+  "text": "Which city is known for its canals and gondolas?",
+  "options": [
+    "Rome",
+    "Venice",
+    "Milan",
+    "Florence"
+  ],
+  "country": "IT",
+  "correctAnswer": "Venice",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:57.458Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b4"
+  },
+  "text": "What is the national animal of Canada?",
+  "options": [
+    "Bald Eagle",
+    "Grizzly Bear",
+    "Moose",
+    "Beaver"
+  ],
+  "country": "CA",
+  "correctAnswer": "Beaver",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:57.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b5"
+  },
+  "text": "What is the largest desert in the world?",
+  "options": [
+    "Sahara Desert",
+    "Gobi Desert",
+    "Atacama Desert",
+    "Kalahari Desert"
+  ],
+  "country": "EG",
+  "correctAnswer": "Sahara Desert",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:58.028Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b6"
+  },
+  "text": "Which country is famous for the Pyramids of Giza?",
+  "options": [
+    "Greece",
+    "Turkey",
+    "Egypt",
+    "Syria"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:58.307Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b7"
+  },
+  "text": "What is the official language of China?",
+  "options": [
+    "Mandarin",
+    "Cantonese",
+    "Shanghainese",
+    "Hokkien"
+  ],
+  "country": "CN",
+  "correctAnswer": "Mandarin",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:58.586Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b8"
+  },
+  "text": "Which country is known for its delicious sushi?",
+  "options": [
+    "Korea",
+    "Japan",
+    "Vietnam",
+    "Thailand"
+  ],
+  "country": "JP",
+  "correctAnswer": "Japan",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:58.866Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5b9"
+  },
+  "text": "What is the national flower of India?",
+  "options": [
+    "Lotus",
+    "Rose",
+    "Lily",
+    "Sunflower"
+  ],
+  "country": "IN",
+  "correctAnswer": "Lotus",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:59.145Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ba"
+  },
+  "text": "Which city is known as the City of Love?",
+  "options": [
+    "New York",
+    "Rome",
+    "Paris",
+    "Venice"
+  ],
+  "country": "FR",
+  "correctAnswer": "Paris",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:59.426Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5bb"
+  },
+  "text": "What is the tallest mountain in the world?",
+  "options": [
+    "Mount Kilimanjaro",
+    "Mount McKinley",
+    "Mount Everest",
+    "Mount Fuji"
+  ],
+  "country": "NP",
+  "correctAnswer": "Mount Everest",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:59.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5bc"
+  },
+  "text": "Which country is famous for the Taj Mahal?",
+  "options": [
+    "India",
+    "Pakistan",
+    "Bangladesh",
+    "Sri Lanka"
+  ],
+  "country": "IN",
+  "correctAnswer": "India",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:34:59.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5bd"
+  },
+  "text": "What is the currency of Japan?",
+  "options": [
+    "Yen",
+    "Won",
+    "Dollar",
+    "Euro"
+  ],
+  "country": "JP",
+  "correctAnswer": "Yen",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:00.332Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5be"
+  },
+  "text": "Which country is known for its beautiful fjords?",
+  "options": [
+    "Norway",
+    "Sweden",
+    "Denmark",
+    "Iceland"
+  ],
+  "country": "NO",
+  "correctAnswer": "Norway",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:00.666Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5bf"
+  },
+  "text": "What is the national dish of Italy?",
+  "options": [
+    "Pizza",
+    "Pasta",
+    "Risotto",
+    "Lasagna"
+  ],
+  "country": "IT",
+  "correctAnswer": "Pasta",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:01.035Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c0"
+  },
+  "text": "Which city is famous for its Red Square?",
+  "options": [
+    "Berlin",
+    "Moscow",
+    "London",
+    "Beijing"
+  ],
+  "country": "RU",
+  "correctAnswer": "Moscow",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:01.340Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c1"
+  },
+  "text": "What is the official language of Germany?",
+  "options": [
+    "German",
+    "Dutch",
+    "Swedish",
+    "Danish"
+  ],
+  "country": "DE",
+  "correctAnswer": "German",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:01.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c2"
+  },
+  "text": "Which country is known for the Inca ruins of Machu Picchu?",
+  "options": [
+    "Chile",
+    "Argentina",
+    "Peru",
+    "Bolivia"
+  ],
+  "country": "PE",
+  "correctAnswer": "Peru",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:01.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c3"
+  },
+  "text": "What is the largest continent in the world?",
+  "options": [
+    "Africa",
+    "North America",
+    "Asia",
+    "Europe"
+  ],
+  "country": "RU",
+  "correctAnswer": "Asia",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:02.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c4"
+  },
+  "text": "Which country is famous for the Great Wall?",
+  "options": [
+    "Japan",
+    "China",
+    "South Korea",
+    "Vietnam"
+  ],
+  "country": "CN",
+  "correctAnswer": "China",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:02.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c5"
+  },
+  "text": "What is the national sport of Canada?",
+  "options": [
+    "Hockey",
+    "Soccer",
+    "Basketball",
+    "Baseball"
+  ],
+  "country": "CA",
+  "correctAnswer": "Hockey",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:02.967Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c6"
+  },
+  "text": "Which river is the longest in the world?",
+  "options": [
+    "Nile",
+    "Amazon",
+    "Mississippi",
+    "Yangtze"
+  ],
+  "country": "EG",
+  "correctAnswer": "Nile",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:03.267Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c7"
+  },
+  "text": "What is the nickname for Australia?",
+  "options": [
+    "The Land Down Under",
+    "The Big Apple",
+    "The Sunshine State",
+    "The Emerald Isle"
+  ],
+  "country": "AU",
+  "correctAnswer": "The Land Down Under",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:03.550Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c8"
+  },
+  "text": "Which city is famous for its canals and gondolas?",
+  "options": [
+    "Venice",
+    "Amsterdam",
+    "Paris",
+    "Barcelona"
+  ],
+  "country": "IT",
+  "correctAnswer": "Venice",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:03.827Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5c9"
+  },
+  "text": "What is the national animal of the United States?",
+  "options": [
+    "Eagle",
+    "Lion",
+    "Bear",
+    "Kangaroo"
+  ],
+  "country": "US",
+  "correctAnswer": "Eagle",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:04.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ca"
+  },
+  "text": "Which country is known for its pyramids and Sphinx?",
+  "options": [
+    "Greece",
+    "Turkey",
+    "Egypt",
+    "Jordan"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:04.418Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5cb"
+  },
+  "text": "What is the official language of Brazil?",
+  "options": [
+    "Portuguese",
+    "Spanish",
+    "French",
+    "Italian"
+  ],
+  "country": "BR",
+  "correctAnswer": "Portuguese",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:04.712Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5cc"
+  },
+  "text": "Which country is famous for the Sydney Opera House?",
+  "options": [
+    "USA",
+    "Canada",
+    "Australia",
+    "UK"
+  ],
+  "country": "AU",
+  "correctAnswer": "Australia",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:04.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5cd"
+  },
+  "text": "What is the national flower of Japan?",
+  "options": [
+    "Sakura",
+    "Rose",
+    "Tulip",
+    "Daisy"
+  ],
+  "country": "JP",
+  "correctAnswer": "Sakura",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:05.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ce"
+  },
+  "text": "What is the national dish of Mexico?",
+  "options": [
+    "Tacos",
+    "Burger",
+    "Sushi",
+    "Pasta"
+  ],
+  "country": "MX",
+  "correctAnswer": "Tacos",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:05.543Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5cf"
+  },
+  "text": "Which country is famous for the Eiffel Tower?",
+  "options": [
+    "Italy",
+    "Germany",
+    "France",
+    "Spain"
+  ],
+  "country": "FR",
+  "correctAnswer": "France",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:05.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d0"
+  },
+  "text": "What is the national bird of India?",
+  "options": [
+    "Peacock",
+    "Eagle",
+    "Parrot",
+    "Ostrich"
+  ],
+  "country": "IN",
+  "correctAnswer": "Peacock",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:06.099Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d1"
+  },
+  "text": "Which country is known for its tulip fields and windmills?",
+  "options": [
+    "Belgium",
+    "Netherlands",
+    "Switzerland",
+    "Austria"
+  ],
+  "country": "NL",
+  "correctAnswer": "Netherlands",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:06.378Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d2"
+  },
+  "text": "What is the national currency of Japan?",
+  "options": [
+    "Yen",
+    "Dollar",
+    "Euro",
+    "Pound"
+  ],
+  "country": "JP",
+  "correctAnswer": "Yen",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:06.654Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d3"
+  },
+  "text": "Which city is famous for the Christ the Redeemer statue?",
+  "options": [
+    "New York City",
+    "Los Angeles",
+    "Rio de Janeiro",
+    "Sydney"
+  ],
+  "country": "BR",
+  "correctAnswer": "Rio de Janeiro",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:06.935Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d5"
+  },
+  "text": "Which country is known for its beautiful fjords and Northern Lights?",
+  "options": [
+    "Sweden",
+    "Norway",
+    "Finland",
+    "Iceland"
+  ],
+  "country": "NO",
+  "correctAnswer": "Norway",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:07.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d6"
+  },
+  "text": "What is the national flower of France?",
+  "options": [
+    "Lily",
+    "Rose",
+    "Sunflower",
+    "Tulip"
+  ],
+  "country": "FR",
+  "correctAnswer": "Lily",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:07.793Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d7"
+  },
+  "text": "Which country is famous for its kangaroos and koalas?",
+  "options": [
+    "Brazil",
+    "Australia",
+    "Argentina",
+    "New Zealand"
+  ],
+  "country": "AU",
+  "correctAnswer": "Australia",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:08.075Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5d8"
+  },
+  "text": "Which country is known for its beautiful cherry blossoms?",
+  "options": [
+    "China",
+    "Japan",
+    "Korea",
+    "Thailand"
+  ],
+  "country": "JP",
+  "correctAnswer": "Japan",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:08.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5da"
+  },
+  "text": "Which city is famous for the Pyramids of Giza?",
+  "options": [
+    "Cairo",
+    "Istanbul",
+    "Athens",
+    "Rome"
+  ],
+  "country": "EG",
+  "correctAnswer": "Cairo",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:08.933Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5db"
+  },
+  "text": "What is the national sport of India?",
+  "options": [
+    "Cricket",
+    "Soccer",
+    "Hockey",
+    "Tennis"
+  ],
+  "country": "IN",
+  "correctAnswer": "Cricket",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:09.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5dc"
+  },
+  "text": "Which country is known for its breathtaking fjords and Viking history?",
+  "options": [
+    "Denmark",
+    "Iceland",
+    "Greenland",
+    "Sweden"
+  ],
+  "country": "IS",
+  "correctAnswer": "Iceland",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:09.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5dd"
+  },
+  "text": "What is the national instrument of Spain?",
+  "options": [
+    "Guitar",
+    "Violin",
+    "Flute",
+    "Piano"
+  ],
+  "country": "ES",
+  "correctAnswer": "Guitar",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:09.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5de"
+  },
+  "text": "Which city is famous for the Statue of Liberty?",
+  "options": [
+    "Los Angeles",
+    "Chicago",
+    "New York City",
+    "San Francisco"
+  ],
+  "country": "US",
+  "correctAnswer": "New York City",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:10.124Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5df"
+  },
+  "text": "What is the national dance of Argentina?",
+  "options": [
+    "Salsa",
+    "Samba",
+    "Tango",
+    "Flamenco"
+  ],
+  "country": "AR",
+  "correctAnswer": "Tango",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:10.402Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e0"
+  },
+  "text": "Which country is known for its Maasai tribes and wildlife safaris?",
+  "options": [
+    "South Africa",
+    "Kenya",
+    "Tanzania",
+    "Uganda"
+  ],
+  "country": "KE",
+  "correctAnswer": "Kenya",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:10.685Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e1"
+  },
+  "text": "What is the national fruit of Thailand?",
+  "options": [
+    "Pineapple",
+    "Mango",
+    "Banana",
+    "Durian"
+  ],
+  "country": "TH",
+  "correctAnswer": "Durian",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:10.963Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e2"
+  },
+  "text": "Which country is known for its stunning tulip fields and windmills?",
+  "options": [
+    "Germany",
+    "France",
+    "Netherlands",
+    "Belgium"
+  ],
+  "country": "NL",
+  "correctAnswer": "Netherlands",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:35:11.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e5"
+  },
+  "text": "What is the national flower of South Korea?",
+  "options": [
+    "Rose",
+    "Lily",
+    "Cherry Blossom",
+    "Hibiscus"
+  ],
+  "country": "KR",
+  "correctAnswer": "Hibiscus",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:24.319Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e6"
+  },
+  "text": "Which country is known for its rich history of samurai and ninja?",
+  "options": [
+    "China",
+    "Korea",
+    "Japan",
+    "Vietnam"
+  ],
+  "country": "JP",
+  "correctAnswer": "Japan",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:24.612Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e7"
+  },
+  "text": "What is the national bird of Australia?",
+  "options": [
+    "Kookaburra",
+    "Emu",
+    "Cockatoo",
+    "Kiwi"
+  ],
+  "country": "AU",
+  "correctAnswer": "Emu",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:24.897Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5e9"
+  },
+  "text": "What is the national tree of Canada?",
+  "options": [
+    "Maple",
+    "Oak",
+    "Pine",
+    "Birch"
+  ],
+  "country": "CA",
+  "correctAnswer": "Maple",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:25.465Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ea"
+  },
+  "text": "Which country is known for its stunning fjords and Viking history?",
+  "options": [
+    "Norway",
+    "Iceland",
+    "Greenland",
+    "Sweden"
+  ],
+  "country": "NO",
+  "correctAnswer": "Norway",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:25.777Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5eb"
+  },
+  "text": "What is the national instrument of India?",
+  "options": [
+    "Sitar",
+    "Tabla",
+    "Veena",
+    "Flute"
+  ],
+  "country": "IN",
+  "correctAnswer": "Sitar",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:26.063Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ec"
+  },
+  "text": "Which country is famous for its ancient pyramids?",
+  "options": [
+    "Greece",
+    "Italy",
+    "Egypt",
+    "Turkey"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:26.351Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ee"
+  },
+  "text": "Which city is known as the 'City of Love'?",
+  "options": [
+    "Venice",
+    "Rome",
+    "Paris",
+    "Barcelona"
+  ],
+  "country": "FR",
+  "correctAnswer": "Paris",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:26.925Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ef"
+  },
+  "text": "What is the national animal of India?",
+  "options": [
+    "Lion",
+    "Tiger",
+    "Elephant",
+    "Leopard"
+  ],
+  "country": "IN",
+  "correctAnswer": "Tiger",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:27.204Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f0"
+  },
+  "text": "Which country is famous for its fjords and trolls?",
+  "options": [
+    "Iceland",
+    "Sweden",
+    "Norway",
+    "Finland"
+  ],
+  "country": "NO",
+  "correctAnswer": "Norway",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:27.494Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f2"
+  },
+  "text": "Which city is known for its stunning skyline and the Burj Khalifa?",
+  "options": [
+    "Istanbul",
+    "Dubai",
+    "Abu Dhabi",
+    "Doha"
+  ],
+  "country": "AE",
+  "correctAnswer": "Dubai",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:29.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f3"
+  },
+  "text": "What is the national dish of Spain?",
+  "options": [
+    "Paella",
+    "Tortilla Española",
+    "Gazpacho",
+    "Sangria"
+  ],
+  "country": "ES",
+  "correctAnswer": "Paella",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:30.007Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f4"
+  },
+  "text": "Which country is famous for its colorful Diwali festival?",
+  "options": [
+    "Thailand",
+    "India",
+    "Nepal",
+    "Sri Lanka"
+  ],
+  "country": "IN",
+  "correctAnswer": "India",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:30.290Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f5"
+  },
+  "text": "What is the national symbol of Australia?",
+  "options": [
+    "Kangaroo",
+    "Koala",
+    "Platypus",
+    "Wombat"
+  ],
+  "country": "AU",
+  "correctAnswer": "Kangaroo",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:30.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f7"
+  },
+  "text": "What is the national instrument of Scotland?",
+  "options": [
+    "Bagpipes",
+    "Harp",
+    "Accordion",
+    "Violin"
+  ],
+  "country": "GB",
+  "correctAnswer": "Bagpipes",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:31.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5f8"
+  },
+  "text": "Which city is famous for its Carnival celebration?",
+  "options": [
+    "Rio de Janeiro",
+    "Buenos Aires",
+    "São Paulo",
+    "Lima"
+  ],
+  "country": "BR",
+  "correctAnswer": "Rio de Janeiro",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:31.842Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5fa"
+  },
+  "text": "Which country is known as the Land of Fire and Ice?",
+  "options": [
+    "Greenland",
+    "Iceland",
+    "Norway",
+    "Canada"
+  ],
+  "country": "IS",
+  "correctAnswer": "Iceland",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:32.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5fc"
+  },
+  "text": "Which country is famous for its samba music and soccer?",
+  "options": [
+    "Argentina",
+    "Chile",
+    "Brazil",
+    "Colombia"
+  ],
+  "country": "BR",
+  "correctAnswer": "Brazil",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:33.385Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5fd"
+  },
+  "text": "What is the national bird of the United States?",
+  "options": [
+    "Eagle",
+    "Hawk",
+    "Falcon",
+    "Owl"
+  ],
+  "country": "US",
+  "correctAnswer": "Eagle",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:33.663Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5fe"
+  },
+  "text": "Which city is known as the 'Eternal City'?",
+  "options": [
+    "Athens",
+    "Rome",
+    "Cairo",
+    "Jerusalem"
+  ],
+  "country": "IT",
+  "correctAnswer": "Rome",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:33.939Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd5ff"
+  },
+  "text": "What is the national sport of New Zealand?",
+  "options": [
+    "Cricket",
+    "Rugby",
+    "Soccer",
+    "Hockey"
+  ],
+  "country": "NZ",
+  "correctAnswer": "Rugby",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:34.218Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd600"
+  },
+  "text": "What is the national animal of Australia?",
+  "options": [
+    "Kangaroo",
+    "Koala",
+    "Platypus",
+    "Emu"
+  ],
+  "country": "AU",
+  "correctAnswer": "Kangaroo",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:34.505Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd601"
+  },
+  "text": "Which country is famous for the Inca civilization and Machu Picchu?",
+  "options": [
+    "Ecuador",
+    "Peru",
+    "Bolivia",
+    "Chile"
+  ],
+  "country": "PE",
+  "correctAnswer": "Peru",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:34.787Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd602"
+  },
+  "text": "What is the national dish of India?",
+  "options": [
+    "Sushi",
+    "Biryani",
+    "Pasta",
+    "Tacos"
+  ],
+  "country": "IN",
+  "correctAnswer": "Biryani",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:35.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd603"
+  },
+  "text": "Which country is known for its delicious chocolate and waffles?",
+  "options": [
+    "Switzerland",
+    "Germany",
+    "Belgium",
+    "Netherlands"
+  ],
+  "country": "BE",
+  "correctAnswer": "Belgium",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:35.348Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd607"
+  },
+  "text": "Which country is known for its beautiful fjords and northern lights?",
+  "options": [
+    "Norway",
+    "Sweden",
+    "Denmark",
+    "Finland"
+  ],
+  "country": "NO",
+  "correctAnswer": "Norway",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:36.464Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd609"
+  },
+  "text": "Which city is famous for the Red Square and the Kremlin?",
+  "options": [
+    "St. Petersburg",
+    "Moscow",
+    "Kiev",
+    "Warsaw"
+  ],
+  "country": "RU",
+  "correctAnswer": "Moscow",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:37.061Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd60a"
+  },
+  "text": "Which African country is known for its pyramids at Giza?",
+  "options": [
+    "Egypt",
+    "Kenya",
+    "Nigeria",
+    "South Africa"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:37.347Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd60b"
+  },
+  "text": "What is the currency of Kenya?",
+  "options": [
+    "Shilling",
+    "Dinar",
+    "Naira",
+    "Rand"
+  ],
+  "country": "KE",
+  "correctAnswer": "Shilling",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:37.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd60c"
+  },
+  "text": "Which African country is famous for the Great Sphinx of Giza?",
+  "options": [
+    "Ghana",
+    "Egypt",
+    "Morocco",
+    "Tanzania"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:37.905Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd60d"
+  },
+  "text": "What is the capital of South Africa?",
+  "options": [
+    "Johannesburg",
+    "Cape Town",
+    "Pretoria",
+    "Nairobi"
+  ],
+  "country": "ZA",
+  "correctAnswer": "Pretoria",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:38.189Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd60e"
+  },
+  "text": "Which African country is known for its Serengeti National Park?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "TZ",
+  "correctAnswer": "Tanzania",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:38.471Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd60f"
+  },
+  "text": "What is the currency of South Africa?",
+  "options": [
+    "Rand",
+    "Dinar",
+    "Shilling",
+    "Naira"
+  ],
+  "country": "ZA",
+  "correctAnswer": "Rand",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:39.103Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd610"
+  },
+  "text": "Which African country is famous for the Victoria Falls?",
+  "options": [
+    "Zambia",
+    "Zimbabwe",
+    "Malawi",
+    "Mozambique"
+  ],
+  "country": "ZW",
+  "correctAnswer": "Zimbabwe",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:39.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd611"
+  },
+  "text": "What is the highest mountain in Africa?",
+  "options": [
+    "Atlas Mountains",
+    "Kilimanjaro",
+    "Simien Mountains",
+    "Drakensberg Mountains"
+  ],
+  "country": "TZ",
+  "correctAnswer": "Kilimanjaro",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:40.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd612"
+  },
+  "text": "Which African country is known as the 'Giant of Africa'?",
+  "options": [
+    "Ghana",
+    "Nigeria",
+    "Kenya",
+    "Ethiopia"
+  ],
+  "country": "NG",
+  "correctAnswer": "Nigeria",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:40.377Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd613"
+  },
+  "text": "What is the capital of Ghana?",
+  "options": [
+    "Accra",
+    "Lagos",
+    "Nairobi",
+    "Addis Ababa"
+  ],
+  "country": "GH",
+  "correctAnswer": "Accra",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:40.660Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd614"
+  },
+  "text": "What is the largest desert in Africa?",
+  "options": [
+    "Sahara Desert",
+    "Kalahari Desert",
+    "Namib Desert",
+    "Atacama Desert"
+  ],
+  "country": "NA",
+  "correctAnswer": "Sahara Desert",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:40.950Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd615"
+  },
+  "text": "Which African country is known for its Maasai people?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Ethiopia",
+    "Uganda"
+  ],
+  "country": "KE",
+  "correctAnswer": "Kenya",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:41.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd616"
+  },
+  "text": "What is the currency of Nigeria?",
+  "options": [
+    "Naira",
+    "Rand",
+    "Shilling",
+    "Dinar"
+  ],
+  "country": "NG",
+  "correctAnswer": "Naira",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:41.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd617"
+  },
+  "text": "Which African country is famous for its Kruger National Park?",
+  "options": [
+    "Zimbabwe",
+    "Namibia",
+    "Botswana",
+    "South Africa"
+  ],
+  "country": "ZA",
+  "correctAnswer": "South Africa",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:41.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd618"
+  },
+  "text": "What is the capital of Egypt?",
+  "options": [
+    "Cairo",
+    "Alexandria",
+    "Luxor",
+    "Giza"
+  ],
+  "country": "EG",
+  "correctAnswer": "Cairo",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:48.774Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd619"
+  },
+  "text": "Which African country is known as the 'Land of a Thousand Hills'?",
+  "options": [
+    "Rwanda",
+    "Uganda",
+    "Burundi",
+    "Tanzania"
+  ],
+  "country": "RW",
+  "correctAnswer": "Rwanda",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:36:49.073Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd61a"
+  },
+  "text": "What is the currency of Ethiopia?",
+  "options": [
+    "Birr",
+    "Shilling",
+    "Naira",
+    "Rand"
+  ],
+  "country": "ET",
+  "correctAnswer": "Birr",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:02.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd61b"
+  },
+  "text": "Which African country is famous for the Maasai Mara National Reserve?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "KE",
+  "correctAnswer": "Kenya",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:02.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd61c"
+  },
+  "text": "What is the capital of Zimbabwe?",
+  "options": [
+    "Harare",
+    "Bulawayo",
+    "Gweru",
+    "Mutare"
+  ],
+  "country": "ZW",
+  "correctAnswer": "Harare",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:03.148Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd61d"
+  },
+  "text": "Which African country is known for its baobab trees?",
+  "options": [
+    "Madagascar",
+    "Ghana",
+    "Senegal",
+    "Mali"
+  ],
+  "country": "MG",
+  "correctAnswer": "Madagascar",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:03.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd628"
+  },
+  "text": "What is the capital of Nigeria?",
+  "options": [
+    "Lagos",
+    "Abuja",
+    "Kano",
+    "Ibadan"
+  ],
+  "country": "NG",
+  "correctAnswer": "Abuja",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:10.545Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd62a"
+  },
+  "text": "What is the currency of Egypt?",
+  "options": [
+    "Pound",
+    "Rial",
+    "Dinar",
+    "Dirham"
+  ],
+  "country": "EG",
+  "correctAnswer": "Pound",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:11.101Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd62b"
+  },
+  "text": "Which African country is famous for its Maasai Mara National Reserve?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "KE",
+  "correctAnswer": "Kenya",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:11.383Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd62c"
+  },
+  "text": "What is the capital of Ethiopia?",
+  "options": [
+    "Addis Ababa",
+    "Nairobi",
+    "Kampala",
+    "Asmara"
+  ],
+  "country": "ET",
+  "correctAnswer": "Addis Ababa",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:11.666Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd62d"
+  },
+  "text": "Which African country is known for its ancient city of Carthage?",
+  "options": [
+    "Tunisia",
+    "Libya",
+    "Algeria",
+    "Morocco"
+  ],
+  "country": "TN",
+  "correctAnswer": "Tunisia",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:11.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd62f"
+  },
+  "text": "Which African country is famous for its Table Mountain?",
+  "options": [
+    "South Africa",
+    "Namibia",
+    "Botswana",
+    "Zimbabwe"
+  ],
+  "country": "ZA",
+  "correctAnswer": "South Africa",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:12.526Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd630"
+  },
+  "text": "What is the capital of Ivory Coast?",
+  "options": [
+    "Abidjan",
+    "Yamoussoukro",
+    "Dakar",
+    "Bamako"
+  ],
+  "country": "CI",
+  "correctAnswer": "Yamoussoukro",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:12.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd633"
+  },
+  "text": "Which African country is known for the Sahara Desert?",
+  "options": [
+    "Egypt",
+    "Niger",
+    "Libya",
+    "Sudan"
+  ],
+  "country": "LY",
+  "correctAnswer": "Libya",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:13.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd634"
+  },
+  "text": "What is the currency of Morocco?",
+  "options": [
+    "Dirham",
+    "Rial",
+    "Pound",
+    "Dinar"
+  ],
+  "country": "MA",
+  "correctAnswer": "Dirham",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:13.941Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd635"
+  },
+  "text": "Which African country is famous for Mount Kilimanjaro?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "TZ",
+  "correctAnswer": "Tanzania",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:14.222Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd636"
+  },
+  "text": "What is the capital of Zambia?",
+  "options": [
+    "Lusaka",
+    "Harare",
+    "Maputo",
+    "Windhoek"
+  ],
+  "country": "ZM",
+  "correctAnswer": "Lusaka",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:14.513Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd637"
+  },
+  "text": "Which African country is known as the 'Rainbow Nation'?",
+  "options": [
+    "South Africa",
+    "Nigeria",
+    "Ghana",
+    "Senegal"
+  ],
+  "country": "ZA",
+  "correctAnswer": "South Africa",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:14.791Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd638"
+  },
+  "text": "What is the currency of Algeria?",
+  "options": [
+    "Dinar",
+    "Pound",
+    "Rand",
+    "Dirham"
+  ],
+  "country": "DZ",
+  "correctAnswer": "Dinar",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:15.069Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd639"
+  },
+  "text": "Which African country is famous for its Great Pyramids?",
+  "options": [
+    "Egypt",
+    "Sudan",
+    "Niger",
+    "Morocco"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:15.359Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd63a"
+  },
+  "text": "What is the capital of Senegal?",
+  "options": [
+    "Dakar",
+    "Abidjan",
+    "Bamako",
+    "Nouakchott"
+  ],
+  "country": "SN",
+  "correctAnswer": "Dakar",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:15.674Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd63b"
+  },
+  "text": "Which African country is known as the 'Pearl of Africa'?",
+  "options": [
+    "Uganda",
+    "Rwanda",
+    "Tanzania",
+    "Kenya"
+  ],
+  "country": "UG",
+  "correctAnswer": "Uganda",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:15.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd63d"
+  },
+  "text": "Which African country is known for the Victoria Falls?",
+  "options": [
+    "Zimbabwe",
+    "Zambia",
+    "Botswana",
+    "Mozambique"
+  ],
+  "country": "ZM",
+  "correctAnswer": "Zambia",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:16.535Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd63f"
+  },
+  "text": "Which African country is famous for its Maasai tribes?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "TZ",
+  "correctAnswer": "Tanzania",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:17.112Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd641"
+  },
+  "text": "Which African country is known for its Gold Coast?",
+  "options": [
+    "Ghana",
+    "Nigeria",
+    "Sierra Leone",
+    "Liberia"
+  ],
+  "country": "GH",
+  "correctAnswer": "Ghana",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:17.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd645"
+  },
+  "text": "Which African country is known for the Okavango Delta?",
+  "options": [
+    "Botswana",
+    "Namibia",
+    "Zimbabwe",
+    "Zambia"
+  ],
+  "country": "BW",
+  "correctAnswer": "Botswana",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:19.222Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd647"
+  },
+  "text": "Which African country is known for the Pyramids of Giza?",
+  "options": [
+    "Egypt",
+    "Tunisia",
+    "Libya",
+    "Algeria"
+  ],
+  "country": "EG",
+  "correctAnswer": "Egypt",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:19.797Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd648"
+  },
+  "text": "What is the capital of Algeria?",
+  "options": [
+    "Algiers",
+    "Casablanca",
+    "Tunis",
+    "Tripoli"
+  ],
+  "country": "DZ",
+  "correctAnswer": "Algiers",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:20.085Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd649"
+  },
+  "text": "Which African country is known for the Serengeti National Park?",
+  "options": [
+    "Kenya",
+    "Tanzania",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "TZ",
+  "correctAnswer": "Tanzania",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:20.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd64a"
+  },
+  "text": "What is the official language of Cameroon?",
+  "options": [
+    "French",
+    "English",
+    "Arabic",
+    "Swahili"
+  ],
+  "country": "CM",
+  "correctAnswer": "French",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:20.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd653"
+  },
+  "text": "Which African country is famous for the Great Rift Valley?",
+  "options": [
+    "Tanzania",
+    "Kenya",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "KE",
+  "correctAnswer": "Kenya",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:23.210Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd654"
+  },
+  "text": "What is the official language of Ghana?",
+  "options": [
+    "English",
+    "French",
+    "Hausa",
+    "Swahili"
+  ],
+  "country": "GH",
+  "correctAnswer": "English",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:23.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd658"
+  },
+  "text": "What is the capital of Ivory Coast (Côte d'Ivoire)?",
+  "options": [
+    "Yamoussoukro",
+    "Abidjan",
+    "Dakar",
+    "Conakry"
+  ],
+  "country": "CI",
+  "correctAnswer": "Yamoussoukro",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:24.620Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd65f"
+  },
+  "text": "What is the official language of Algeria?",
+  "options": [
+    "Arabic",
+    "French",
+    "Berber",
+    "English"
+  ],
+  "country": "DZ",
+  "correctAnswer": "Arabic",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:26.607Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd661"
+  },
+  "text": "What is the capital of Angola?",
+  "options": [
+    "Luanda",
+    "Lagos",
+    "Maputo",
+    "Libreville"
+  ],
+  "country": "AO",
+  "correctAnswer": "Luanda",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:27.168Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd662"
+  },
+  "text": "Which African country is famous for the Serengeti National Park?",
+  "options": [
+    "Tanzania",
+    "Kenya",
+    "Uganda",
+    "Rwanda"
+  ],
+  "country": "TZ",
+  "correctAnswer": "Tanzania",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:27.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65142d441e5dfb3fedccd663"
+  },
+  "text": "What is the currency of Ghana?",
+  "options": [
+    "Cedi",
+    "Naira",
+    "Dinar",
+    "Rand"
+  ],
+  "country": "GH",
+  "correctAnswer": "Cedi",
+  "deleted": false,
+  "updatedAt": {
+    "$date": "2023-09-27T13:37:27.738Z"
+  }
+}]

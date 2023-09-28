@@ -18,11 +18,6 @@ const UserSchema = new Schema<IUser>(
       type: String,
       select: false,
     },
-    points: {
-      type: Number,
-      required: false,
-      default: 0,
-    },
     deleted: {
       type: Schema.Types.Boolean,
       required: true,

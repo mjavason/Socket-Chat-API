@@ -12,7 +12,7 @@ import { authValidation } from '../../../validation';
 router.post(
   '/reset-password-email/:email',
   processRequestParams(authValidation.resetPasswordEmail.params),
-  userController.resetPassword,
+  userController.resetPasswordMail,
 );
 
 // Reset the user's password

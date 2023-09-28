@@ -1,21 +1,39 @@
-import { Server } from 'http';
+import { createServer } from 'http';
+import { Server, Socket } from 'socket.io';
 import 'express-async-errors';
 import app from './app';
 import logger from './helpers/logger';
+import preMiddleware from './middleware/pre.middleware';
 import { connectToDatabase } from './config/db';
+import cors from 'cors'; // Import cors middleware
+import { startDefaultNamespace } from './namespaces/default.namespace';
 
-// setting up server
+// Setting up server
 const PORT = process.env.PORT || 5000;
+let socketInstance: Socket;
 
-const server: Server = app.listen(PORT, async () => {
+// Create an instance of the HTTP server
+const httpServer = createServer(app);
+
+// Create an instance of the Socket.io server attached to the HTTP server
+const io = new Server(httpServer, {
+  cors: {
+    origin: '*', // Replace with your frontend URL
+    methods: ['GET', 'POST'],
+  },
+  // options
+});
+
+const server = httpServer.listen(PORT, async () => {
   await connectToDatabase();
+  startDefaultNamespace(io);
   logger.info(`Server running on port ${PORT}`);
 });
 
-// handle unhanled promise rejections
+// Handle unhandled promise rejections
 process.on('unhandledRejection', (err) => {
   console.log(err);
 
-  // close server
+  // Close server
   server.close(() => process.exit(1));
 });

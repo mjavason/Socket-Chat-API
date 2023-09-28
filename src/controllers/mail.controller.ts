@@ -46,7 +46,7 @@ class Controller {
       '#100DaysOfAPIAwesomeness Welcome',
     );
 
-    console.log(`Password reset email sent to: ${email}`);
+    console.log(`#100DaysOfAPIAwesomeness Welcome email sent to: ${email}`);
 
     return { info };
   }

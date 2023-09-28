@@ -31,7 +31,7 @@ class Validation {
   resetPasswordToken = {
     body: z.object({
       token: z.string().min(1).max(255), // Define token validation rules as needed
-      password: z.string().min(5), // Adjust the password requirements as needed
+      newPassword: z.string().min(5), // Adjust the password requirements as needed
     }),
   };
 }

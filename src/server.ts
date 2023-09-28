@@ -3,14 +3,11 @@ import { Server, Socket } from 'socket.io';
 import 'express-async-errors';
 import app from './app';
 import logger from './helpers/logger';
-import preMiddleware from './middleware/pre.middleware';
 import { connectToDatabase } from './config/db';
-import cors from 'cors'; // Import cors middleware
 import { startDefaultNamespace } from './namespaces/default.namespace';
 
 // Setting up server
 const PORT = process.env.PORT || 5000;
-let socketInstance: Socket;
 
 // Create an instance of the HTTP server
 const httpServer = createServer(app);

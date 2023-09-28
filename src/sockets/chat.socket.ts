@@ -3,27 +3,27 @@ import Interface from '../interfaces/user.interface';
 import { Socket, Server } from 'socket.io';
 
 class ChatSocket {
-  joinChat(socket: Socket, userId: string, chatNamespace: Server) {
+  joinChat(socket: Socket, userId: string) {
     socket.on('join', (user: string) => {
       userId = user;
       socket.join(userId); // Join a room with the user's unique ID
-      chatNamespace.to(userId).emit('chat_message', 'You joined the chat'); // Inform the user
+      socket.to(userId).emit('chat_message', 'You joined the chat'); // Inform the user
     });
   }
 
-  sendMessage(socket: Socket, userId: string, chatNamespace: Server) {
+  sendMessage(socket: Socket, userId: string) {
     socket.on('chat_message', (message: string) => {
       if (userId) {
         // Broadcast the message to the user's room
-        chatNamespace.to(userId).emit('chat_message', message);
+        socket.to(userId).emit('chat_message', message);
       }
     });
   }
 
-  leaveChat(socket: Socket, userId: string, chatNamespace: Server) {
+  leaveChat(socket: Socket, userId: string) {
     socket.on('disconnect', () => {
       if (userId) {
-        chatNamespace.to(userId).emit('chat_message', 'You left the chat'); // Inform the user
+        socket.to(userId).emit('chat_message', 'You left the chat'); // Inform the user
         socket.leave(userId); // Leave the user's room
       }
     });

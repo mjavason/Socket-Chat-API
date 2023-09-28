@@ -1,5 +1,6 @@
 import { Server } from 'socket.io';
 import { userAuthMiddleware } from '../middleware/socket_user_auth.middleware'; // Import the user authentication middleware
+import { defaultSocket } from '../sockets';
 
 export function startDefaultNamespace(io: Server) {
   let counter = 0;
@@ -29,6 +30,14 @@ export function startDefaultNamespace(io: Server) {
 
     counter++;
     console.log(`User ${userId} connected`, counter);
-    io.emit('hello', 'hello from the backend');
+
+    socket.emit('hello', 'hello from the backend');
+    socket.on('chat', (arg) => {
+      defaultSocket.chat(socket, userId, arg);
+    });
+
+    socket.on('default', (message) => {
+      defaultSocket.default(socket, userId);
+    });
   });
 }

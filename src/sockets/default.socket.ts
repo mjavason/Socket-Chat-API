@@ -1,5 +1,3 @@
-import Model from '../database/models/user.model';
-import Interface from '../interfaces/user.interface';
 import { Socket, Server } from 'socket.io';
 
 function computeUserId(socket: Socket) {
@@ -19,12 +17,10 @@ class DefaultSocket {
     socket.emit('default', 'Welcome to the #100DaysOfAPIAwesomeness Socket server'); // Inform the user
   }
 
-  chat(socket: Socket, userId: string, chatNamespace: Server) {
-    socket.on('chat', (message: string, user: string) => {
-      userId = user;
-      socket.join(userId); // Join a room with the user's unique ID
-      socket.to(userId).emit('reply', `I received your message, you said: "${message}"`); // Inform the user
-    });
+  chat(socket: Socket, userId: string, message: string) {
+    // console.log('chat event called successfully');
+    // socket.join(userId); // Join a room with the user's unique ID
+    socket.emit('reply', `I received your message, you said: "${message}"`); // Inform the user
   }
 }
 

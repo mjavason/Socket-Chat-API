@@ -1,6 +1,4 @@
 import { Router } from 'express';
-import expressWs from 'express-ws';
-import WebSocket from 'ws';
 const router = Router();
 import { socketController } from '../../../controllers';
 // import { socketValidation } from '../../../validation';

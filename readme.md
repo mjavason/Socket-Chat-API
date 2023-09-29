@@ -1,23 +1,34 @@
-# Socket Chat API
+
+# Football-Live-Scores-API
+Typescript and Express-based API for real-time football score notifications: halftime, full time, fouls, and goals. Stay updated with the game!
+
+## Table of Contents
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Environment Variables](#environment-variables)
+- [Sample Usage](#sample-usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
 
 ## Overview
 
-The Socket Chat API is a WebSocket-based backend for real-time chat applications.  The API allows users to connect to chat rooms, exchange messages, and experience real-time communication. Currently hosted live at [Livechat API](https://socket-chat-wd2a.onrender.com)
+The Football Live Score API provides real-time football match information, including push notifications for halftime, full time, fouls, and goals. The API allows users to subscribe to match updates and stay connected to the action. Currently hosted live at [Football Live Score API](https://football-livescore.onrender.com).
 
 ## Getting Started
 
-To set up and run the Socket Chat API, follow these steps:
+To set up and run the Football Live Score API, follow these steps:
 
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/mjavason/Socket-Chat-API.git
+   git clone https://github.com/mjavason/Football-Live-Scores-API.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd socket-chat-api
+   cd football-livescore-api
    ```
 
 3. Install the required dependencies:
@@ -26,13 +37,15 @@ To set up and run the Socket Chat API, follow these steps:
    npm install
    ```
 
-4. Build the TypeScript code:
+4. Set up the environment variables by creating a `.env` file in the root directory. Refer to the "Environment Variables" section below for details.
+
+5. Build the TypeScript code:
 
    ```shell
    npm run build
    ```
 
-5. Start the server:
+6. Start the server:
 
    ```shell
    npm start
@@ -42,56 +55,48 @@ The API will be accessible at `http://localhost:5000` by default.
 
 ## Features
 
-- **WebSocket-Based Chat**: The API uses WebSocket for real-time chat communication, allowing users to send and receive messages instantly.
+- **Real-time Updates**: Receive live football match updates, including halftime, full time, fouls, and goals, in real-time.
 
-- **Chat Rooms**: Users can join different chat rooms based on their preferences or topics of interest.
+- **Subscription Service**: Users can subscribe to specific matches or events to receive push notifications.
 
-- **Message Broadcasting**: Messages sent by one user are broadcasted to all participants in the same chat room.
+## Environment Variables
 
-## Security
+Before running the API, make sure to set up the following environment variables in your `.env` file:
 
-This API provides the foundation for real-time chat but may require additional security measures, such as message encryption, for production-ready chat applications. Consider implementing these measures to enhance security.
+```env
+ACCESS_TOKEN_SECRET=your-access-token-secret
+APP_NAME=Football Live Score App
+JWT_SECRET=your-jwt-secret
+MONGODB_URL=your-mongodb-url
+MONGO_DB_NAME=your-mongodb-database-name
+REFRESH_TOKEN_SECRET=your-refresh-token-secret
+USERNAME=user@mail.com
+SITE_LINK=your-app-website-link
+MAIL_ADDRESS=your-mail-address@mail.com
+MAIL_PASSWORD=your-mail-password
+PUBLIC_VAPID_KEY=your-public-vapid-key
+PRIVATE_VAPID_KEY=your-private-vapid-key
+```
 
 ## Sample Usage
 
-### Joining a Chat Room
+### Subscribing to Match Updates
 
-To join a chat room using the Socket Chat API, you can connect to a WebSocket endpoint and specify the chat room name as part of the connection URL:
+To subscribe to match updates, make a POST request to the `/subscribe` endpoint of the API with the necessary parameters.
 
-```javascript
-const socket = new WebSocket('ws://localhost:3000/chat?room=your-room-name');
-```
+Example using curl:
 
-### Sending and Receiving Messages
-
-Once connected to a chat room, you can send and receive messages using WebSocket events:
-
-```javascript
-// Sending a message
-socket.send('Hello, chat room!');
-
-// Receiving a message
-socket.addEventListener('message', (event) => {
-  const message = event.data;
-  console.log('Received message:', message);
-});
-```
-
-### Leaving a Chat Room
-
-To leave a chat room, you can close the WebSocket connection:
-
-```javascript
-socket.close();
+```bash
+curl -X POST https://football-livescore.onrender.com/subscribe -d "matchId=your-match-id&userId=your-user-id"
 ```
 
 ## Documentation
 
-For detailed documentation on how to use the Socket Chat API and its WebSocket endpoints, refer to the [Socket Chat API Documentation](https://documenter.getpostman.com/view/29278179/2s9YJZ3PeE).
+For detailed documentation on how to use the Football Live Score API and its endpoints, refer to the [API Documentation](https://documenter.getpostman.com/view/29278179/2s9YJaWiZz).
 
 ## Contributing
 
-Contributions to the Socket Chat API are welcome! If you'd like to contribute:
+Contributions to the Football Live Score API are welcome! If you'd like to contribute:
 
 1. Fork the project on GitHub.
 
@@ -104,7 +109,3 @@ Contributions to the Socket Chat API are welcome! If you'd like to contribute:
 5. Create a pull request with a clear description of your changes.
 
 Contributions that improve functionality, performance, and user experience are highly appreciated.
-
-## Acknowledgments
-
-The Socket Chat API project appreciates the support of the open-source community and contributors. Your contributions in code, testing, and documentation help make this API a valuable tool for real-time communication.

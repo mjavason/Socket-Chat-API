@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Socket Chat API is a WebSocket-based backend for real-time chat applications.  The API allows users to connect to chat rooms, exchange messages, and experience real-time communication. Currently hosted live at [Livechat API](https://socket-chat-wd2a.onrender.com)
+The Socket Chat API is a WebSocket-based backend for real-time chat applications. The API allows users to connect to chat rooms, exchange messages, and experience real-time communication. Currently hosted live at [Livechat API](https://socket-chat-wd2a.onrender.com)
 
 ## Getting Started
 

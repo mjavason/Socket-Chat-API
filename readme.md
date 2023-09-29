@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Socket Chat API is a WebSocket-based backend for real-time chat applications. The API allows users to connect to chat rooms, exchange messages, and experience real-time communication. Currently hosted live at [Livechat API](https://socket-chat-wd2a.onrender.com)
+The Socket Chat API is a WebSocket-based backend for real-time chat applications. The API allows users to connect to chat rooms, exchange messages, and experience real-time communication. It is currently hosted live at [Livechat API](https://socket-chat-wd2a.onrender.com).
 
 ## Getting Started
 
@@ -48,42 +48,61 @@ The API will be accessible at `http://localhost:5000` by default.
 
 - **Message Broadcasting**: Messages sent by one user are broadcasted to all participants in the same chat room.
 
+## Sample Frontend Usage
+
+To use the Socket Chat API in your frontend application, follow these steps:
+
+1. Include the Socket.io library in your HTML file. You can use the following script tag to load it:
+
+   ```html
+   <script type="module" src="https://cdn.socket.io/4.4.1/socket.io.esm.min.js"></script>
+   ```
+
+2. Create an instance of the Socket.io client and connect to the server:
+
+   ```javascript
+   const serverUrl = 'http://localhost:5000'; // Replace with your server URL
+   const socket = io(serverUrl, {
+     auth: {
+       token: 'YOUR_AUTH_TOKEN', // Pass your authentication token here
+     },
+   });
+   ```
+
+3. Start listening to events from the server. For example, you can listen for a "hello" event:
+
+   ```javascript
+   socket.on('hello', (arg1, arg2, arg3, arg4) => {
+     console.log(arg1); // Handle the event data as needed
+   });
+   ```
+
+4. Send messages to the server by emitting events. For instance, to send a chat message:
+
+   ```javascript
+   const message = 'Hello, chat room!'; // Replace with your message
+   socket.emit('chat', message);
+   ```
+
+5. Handle incoming messages and other events from the server as needed:
+
+   ```javascript
+   socket.on('reply', (arg1) => {
+     console.log(arg1); // Handle incoming messages
+   });
+   ```
+
+6. Close the socket connection when you're done:
+
+   ```javascript
+   socket.close();
+   ```
+
+That's it! You can now integrate the Socket Chat API into your frontend application to enable real-time chat functionality.
+
 ## Security
 
-This API provides the foundation for real-time chat but may require additional security measures, such as message encryption, for production-ready chat applications. Consider implementing these measures to enhance security.
-
-## Sample Usage
-
-### Joining a Chat Room
-
-To join a chat room using the Socket Chat API, you can connect to a WebSocket endpoint and specify the chat room name as part of the connection URL:
-
-```javascript
-const socket = new WebSocket('ws://localhost:3000/chat?room=your-room-name');
-```
-
-### Sending and Receiving Messages
-
-Once connected to a chat room, you can send and receive messages using WebSocket events:
-
-```javascript
-// Sending a message
-socket.send('Hello, chat room!');
-
-// Receiving a message
-socket.addEventListener('message', (event) => {
-  const message = event.data;
-  console.log('Received message:', message);
-});
-```
-
-### Leaving a Chat Room
-
-To leave a chat room, you can close the WebSocket connection:
-
-```javascript
-socket.close();
-```
+Please ensure that you handle authentication and security measures properly when using this API in your frontend application. The example code above includes an authentication token, but you may need additional security measures depending on your use case.
 
 ## Documentation
 

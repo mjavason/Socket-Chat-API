@@ -3,7 +3,7 @@ const sendMessageButton = document.getElementById('sendMessage');
 
 import { io } from 'https://cdn.socket.io/4.4.1/socket.io.esm.min.js';
 
-const serverUrl = 'http://localhost:5000';
+const serverUrl = 'http://localhost:5000'; //https://socket-chat-wd2a.onrender.com
 const socket = io(`${serverUrl}`, {
   auth: {
     token:

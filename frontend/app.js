@@ -1,56 +1,33 @@
-const chatMessages = document.getElementById('chat-messages');
-const messageInput = document.getElementById('message-input');
-const sendButton = document.getElementById('send-button');
-const header = document.getElementById('title');
-
-const serverUrl = 'http://localhost:5000';
+const joinRoomButton = document.getElementById('joinRoom');
+const sendMessageButton = document.getElementById('sendMessage');
 
 import { io } from 'https://cdn.socket.io/4.4.1/socket.io.esm.min.js';
+
+const serverUrl = 'http://localhost:5000';
 const socket = io(`${serverUrl}`, {
   auth: {
     token:
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTE1YzQ1ZjlkMjFhZWNiOGQxODQzODciLCJyb2xlIjoidXNlciIsImlhdCI6MTY5NTkyNTY3NywiZXhwIjoxNjk2MDk4NDc3fQ.tNBsIZ1zpTuBZhPgkSM3uCU2LmxenqCJpsUgmB2fDCA', // Pass your authentication token here
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTE4MWViZTg3NmEwOWExOGI1ODc2ZjgiLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6Im9yamltaWNoYWVsMjI0MEBnbWFpbC5jb20iLCJpYXQiOjE2OTYwODAzMzEsImV4cCI6MTY5NjI1MzEzMX0.RrfaScmVWn1V1Akgx-IhlHcAG0lN1OGAsN9jUJGMUSU', // Pass your authentication token here
   },
 });
 
-socket.on('hello', (arg1, arg2, arg3, arg4) => {
-  console.log(arg1); // 1
+joinRoomButton.addEventListener('click', () => {
+  const room = document.getElementById('room').value;
+  socket.emit('join', room);
+  document.getElementById('room-form').style.display = 'none';
+  document.getElementById('chat').style.display = 'block';
 });
 
-sendButton.addEventListener('click', () => {
-  console.log('button clicked');
-
-  // Get the message from the input field
-  const message = messageInput.value;
-
-  // Emit the chat message to the server
-  socket.emit('chat', message);
-  socket.emit('default', message);
-  console.log(message);
-
-  // Clear the input field after sending the message
-  // messageInput.value = '';
+sendMessageButton.addEventListener('click', () => {
+  const room = document.getElementById('room').value;
+  const message = document.getElementById('message').value;
+  socket.emit('chat message', room, message);
+  document.getElementById('message').value = '';
 });
 
-socket.on('reply', (arg1) => {
-  console.log(arg1);
-
-  chatMessages.value += arg1 + '\n';
+socket.on('chat message', (message) => {
+  const ul = document.getElementById('messages');
+  const li = document.createElement('li');
+  li.appendChild(document.createTextNode(message));
+  ul.appendChild(li);
 });
-
-socket.on('default', (arg1) => {
-  console.log(arg1);
-
-  header.innerHTML = arg1;
-});
-
-socket.on('new_namespace', (arg1) => {
-  console.log(arg1);
-});
-
-// Function to add a new namespace to the list
-function addNamespaceToList(namespaceName) {
-  const namespaceItem = document.createElement('li');
-  namespaceItem.textContent = `New Namespace: ${namespaceName}`;
-  namespaceList.appendChild(namespaceItem);
-}

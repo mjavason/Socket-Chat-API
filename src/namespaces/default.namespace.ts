@@ -6,6 +6,20 @@ export function startDefaultNamespace(io: Server) {
   let counter = 0;
   let userId = '';
   io.on('connection', async (socket) => {
+    socket.on('join', (room) => {
+      socket.join(room); // Join the specified room
+    });
+  
+    socket.on('chat message', (room, message) => {
+      io.to(room).emit('chat message', message); // Broadcast the message to everyone in the room
+    });
+  
+    socket.on('disconnect', () => {
+      // Handle user disconnection here
+    });
+
+    //////////////////////////////////////////////////////////////////////////////////
+
     const { token } = socket.handshake.auth;
     const user = await userAuthMiddleware(token);
 

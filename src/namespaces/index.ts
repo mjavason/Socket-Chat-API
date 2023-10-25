@@ -3,5 +3,4 @@
 // export = './whatever'
 // export { whatever } from './whatever';
 
-export { startChatNamespace } from './chat.namespace';
 export { startDefaultNamespace } from './default.namespace';
